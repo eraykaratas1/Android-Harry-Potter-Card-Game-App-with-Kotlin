@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirtySixCardsActivity">
+
+    <ImageButton
+        android:id="@+id/ImageT"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT15"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT12" />
+
+    <ImageButton
+        android:id="@+id/ImageT1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT5"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT21" />
+
+    <ImageButton
+        android:id="@+id/ImageT2"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT6"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT3"
+        app:layout_constraintStart_toEndOf="@+id/ImageT1"
+        app:layout_constraintTop_toTopOf="@+id/ImageT21" />
+
+    <ImageButton
+        android:id="@+id/ImageT3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT7"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT4"
+        app:layout_constraintStart_toEndOf="@+id/ImageT2"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT23" />
+
+    <ImageButton
+        android:id="@+id/ImageT4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT3"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT16" />
+
+    <ImageButton
+        android:id="@+id/ImageT5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT9"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT1" />
+
+    <ImageButton
+        android:id="@+id/ImageT6"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT9"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT7"
+        app:layout_constraintStart_toEndOf="@+id/ImageT5"
+        app:layout_constraintTop_toTopOf="@+id/ImageT1" />
+
+    <ImageButton
+        android:id="@+id/ImageT7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT11"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT8"
+        app:layout_constraintStart_toEndOf="@+id/ImageT6"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT3" />
+
+    <ImageButton
+        android:id="@+id/ImageT8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT7"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT4" />
+
+    <ImageButton
+        android:id="@+id/ImageT9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT13"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT5" />
+
+    <ImageButton
+        android:id="@+id/ImageT10"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT13"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT11"
+        app:layout_constraintStart_toEndOf="@+id/ImageT9"
+        app:layout_constraintTop_toTopOf="@+id/ImageT6" />
+
+    <ImageButton
+        android:id="@+id/ImageT11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT15"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT12"
+        app:layout_constraintStart_toEndOf="@+id/ImageT10"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT7" />
+
+    <ImageButton
+        android:id="@+id/ImageT12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT11"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT8" />
+
+    <ImageButton
+        android:id="@+id/ImageT13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT9" />
+
+    <ImageButton
+        android:id="@+id/ImageT14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT13"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT15"
+        app:layout_constraintStart_toEndOf="@+id/ImageT13"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT10" />
+
+    <ImageButton
+        android:id="@+id/ImageT15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT"
+        app:layout_constraintStart_toEndOf="@+id/ImageT14"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT11" />
+
+    <ImageButton
+        android:id="@+id/ImageT16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT23"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT20" />
+
+    <ImageButton
+        android:id="@+id/ImageT17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT21"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT28" />
+
+    <ImageButton
+        android:id="@+id/ImageT18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT22"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT19"
+        app:layout_constraintStart_toEndOf="@+id/ImageT17"
+        app:layout_constraintTop_toTopOf="@+id/ImageT17" />
+
+    <ImageButton
+        android:id="@+id/ImageT19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT23"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT20"
+        app:layout_constraintStart_toEndOf="@+id/ImageT18"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT30" />
+
+    <ImageButton
+        android:id="@+id/ImageT20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT19"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT31" />
+
+    <ImageButton
+        android:id="@+id/ImageT21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT1"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT17" />
+
+    <ImageButton
+        android:id="@+id/ImageT22"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT2"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT23"
+        app:layout_constraintStart_toEndOf="@+id/ImageT21"
+        app:layout_constraintTop_toTopOf="@+id/ImageT17" />
+
+    <ImageButton
+        android:id="@+id/ImageT23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT3"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT16"
+        app:layout_constraintStart_toEndOf="@+id/ImageT22"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT19" />
+
+    <ImageButton
+        android:id="@+id/ImageT24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT28"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT33" />
+
+    <ImageButton
+        android:id="@+id/ImageT25"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT29"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT27"
+        app:layout_constraintStart_toEndOf="@+id/ImageT24"
+        app:layout_constraintTop_toTopOf="@+id/ImageT33" />
+
+    <ImageButton
+        android:id="@+id/ImageT26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT27"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT35" />
+
+    <ImageButton
+        android:id="@+id/ImageT27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT30"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT26"
+        app:layout_constraintStart_toEndOf="@+id/ImageT25"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT32" />
+
+    <ImageButton
+        android:id="@+id/ImageT28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT17"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT24" />
+
+    <ImageButton
+        android:id="@+id/ImageT29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ImageT28"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT30"
+        app:layout_constraintStart_toEndOf="@+id/ImageT28"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT24" />
+
+    <ImageButton
+        android:id="@+id/ImageT30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT19"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT31"
+        app:layout_constraintStart_toEndOf="@+id/ImageT29"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT27" />
+
+    <ImageButton
+        android:id="@+id/ImageT31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT30"
+        app:layout_constraintTop_toBottomOf="@+id/ImageT26" />
+
+    <ImageButton
+        android:id="@+id/ImageT32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT27"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT35"
+        app:layout_constraintStart_toEndOf="@+id/ImageT34"
+        app:layout_constraintTop_toBottomOf="@+id/Time_Thirty_Six_Cards_Game" />
+
+    <ImageButton
+        android:id="@+id/ImageT33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT24"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageT34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT25"
+        app:layout_constraintEnd_toStartOf="@+id/ImageT32"
+        app:layout_constraintStart_toEndOf="@+id/ImageT33"
+        app:layout_constraintTop_toTopOf="@+id/ImageT33" />
+
+    <ImageButton
+        android:id="@+id/ImageT35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageT32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Time_Thirty_Six_Cards_Game"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:textAlignment="center"
+        android:textColor="#FB0303"
+        app:layout_constraintBottom_toTopOf="@+id/ImageT32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Thirty_Six_Cards_Stop_Music"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:text="Arka Plan Müziği Durdur"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

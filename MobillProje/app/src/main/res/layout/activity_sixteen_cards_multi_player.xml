@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixteenCardsMultiPlayerActivity">
+
+    <ImageButton
+        android:id="@+id/ImageM"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageM3"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM4" />
+
+    <ImageButton
+        android:id="@+id/ImageM1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM5" />
+
+    <ImageButton
+        android:id="@+id/ImageM2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM3"
+        app:layout_constraintStart_toEndOf="@+id/ImageM1"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM6" />
+
+    <ImageButton
+        android:id="@+id/ImageM3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM"
+        app:layout_constraintStart_toEndOf="@+id/ImageM2"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM7" />
+
+    <ImageButton
+        android:id="@+id/ImageM4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageM7"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM11" />
+
+    <ImageButton
+        android:id="@+id/ImageM5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM1"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM8" />
+
+    <ImageButton
+        android:id="@+id/ImageM6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM2"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM7"
+        app:layout_constraintStart_toEndOf="@+id/ImageM5"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM9" />
+
+    <ImageButton
+        android:id="@+id/ImageM7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM3"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM4"
+        app:layout_constraintStart_toEndOf="@+id/ImageM6"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM10" />
+
+    <ImageButton
+        android:id="@+id/ImageM8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM5"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM12" />
+
+    <ImageButton
+        android:id="@+id/ImageM9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM6"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM10"
+        app:layout_constraintStart_toEndOf="@+id/ImageM8"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM14" />
+
+    <ImageButton
+        android:id="@+id/ImageM10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM7"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM11"
+        app:layout_constraintStart_toEndOf="@+id/ImageM9"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM15" />
+
+    <ImageButton
+        android:id="@+id/ImageM11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageM10"
+        app:layout_constraintTop_toBottomOf="@+id/ImageM13" />
+
+    <ImageButton
+        android:id="@+id/ImageM12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM8"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageM13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ImageM15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageM14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM9"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM15"
+        app:layout_constraintStart_toEndOf="@+id/ImageM12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ImageM15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM10"
+        app:layout_constraintEnd_toStartOf="@+id/ImageM13"
+        app:layout_constraintStart_toEndOf="@+id/ImageM14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Time_Sixteen_Cards_Multi_Game"
+        android:layout_width="225dp"
+        android:layout_height="42dp"
+        android:textAlignment="center"
+        android:textColor="#FA0404"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/ImageM14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/Sixteen_Cards_Multi_Game_Stop_Music"
+        android:layout_width="243dp"
+        android:layout_height="34dp"
+        android:text="Arka Plan Müziği Durdur"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

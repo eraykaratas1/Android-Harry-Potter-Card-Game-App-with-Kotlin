@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ChangePassword"
+        android:layout_width="115dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="39dp"
+        android:text="Sifre Degistir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThirtySixCardGame" />
+
+    <Button
+        android:id="@+id/FourCardGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="37dp"
+        android:text="2x2 kart"
+        app:layout_constraintBottom_toTopOf="@+id/SixteenCardGame"
+        app:layout_constraintEnd_toStartOf="@+id/FourCardGameMulti"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="24dp"
+        android:text="Tek Oyunculu"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/FourCardGame"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SixteenCardGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="36dp"
+        android:text="4x4 kart"
+        app:layout_constraintBottom_toTopOf="@+id/ThirtySixCardGame"
+        app:layout_constraintEnd_toStartOf="@+id/SixteenCardGameMulti"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FourCardGame" />
+
+    <Button
+        android:id="@+id/ThirtySixCardGame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="30dp"
+        android:text="6x6 kart"
+        app:layout_constraintBottom_toTopOf="@+id/ChangePassword"
+        app:layout_constraintEnd_toStartOf="@+id/ThirtySixCardGameMulti"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SixteenCardGame" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="24dp"
+        android:text="Çok Oyunculu"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/FourCardGameMulti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/FourCardGameMulti"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="37dp"
+        android:text="2x2 kart"
+        app:layout_constraintBottom_toTopOf="@+id/SixteenCardGameMulti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/FourCardGame"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/SixteenCardGameMulti"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="36dp"
+        android:text="4x4 kart"
+        app:layout_constraintBottom_toTopOf="@+id/ThirtySixCardGameMulti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SixteenCardGame"
+        app:layout_constraintTop_toBottomOf="@+id/FourCardGameMulti" />
+
+    <Button
+        android:id="@+id/ThirtySixCardGameMulti"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="30dp"
+        android:text="6x6 kart"
+        app:layout_constraintBottom_toTopOf="@+id/ChangePassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ThirtySixCardGame"
+        app:layout_constraintTop_toBottomOf="@+id/SixteenCardGameMulti" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
